@@ -50,10 +50,13 @@ export default function Hero() {
             </p>
 
             <p>
-              Com crenças diferentes, aprendemos a construir algo que respeitasse
-              os dois caminhos e fizesse sentido para nós. Teremos uma cerimônia
-              intimista na igreja e, depois, uma celebração especial com todos.
-            </p>
+              Com crenças diferentes, aprendemos a construir algo que respeitasse os dois caminhos
+               e fizesse sentido para nós. Então, nesse dia, teremos primeiramente uma cerimônia intimista na igreja, reservada à família,
+                para que a noiva receba o sacramento do matrimônio.
+                </p>
+
+              <p>Mas, para que todos possam fazer parte desse momento, faremos uma festa e uma cerimônia especial durante a comemoração.
+              </p>
 
             <p className="italic text-purple-700">
               “O amor tudo sofre, tudo crê, tudo espera, tudo suporta.”
@@ -62,7 +65,17 @@ export default function Hero() {
                 1 Coríntios 13:7 e 13
               </span>
             </p>
+
+
+            <p>
+            Mais detalhes abaixo, esperamos vocês!
+          </p>
+
+
           </div>
+
+
+         
 
           {/* PRESENTES */}
           <div className="flex items-center justify-center gap-4 mt-12">
