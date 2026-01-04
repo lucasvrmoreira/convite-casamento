@@ -7,8 +7,10 @@ export default function EnvelopeLottie({ onAbrir }) {
   const [sumir, setSumir] = useState(false);
 
   const abrirConvite = () => {
-    lottieRef.current.setSpeed(0.6);
-    lottieRef.current.playSegments([30, 91], true);
+    if (lottieRef.current) { // Verificação de segurança
+      lottieRef.current.setSpeed(0.6);
+      lottieRef.current.playSegments([30, 91], true);
+    }
   };
 
   return (
