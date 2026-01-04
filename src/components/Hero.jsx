@@ -74,9 +74,6 @@ export default function Hero() {
 
           </div>
 
-
-         
-
           {/* PRESENTES */}
           <div className="flex items-center justify-center gap-4 mt-12">
             <span className="h-px w-10 bg-purple-200" />
